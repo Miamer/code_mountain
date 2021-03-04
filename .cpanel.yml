@@ -1,0 +1,5 @@
+--- 
+deployment: 
+     tasks: 
+          - export DEPLOYPATH=/home/rjic4028/my-sites/code-mountain.rjic4028.odns.fr
+          - /bin/cp -R public/* $DEPLOYPATH
